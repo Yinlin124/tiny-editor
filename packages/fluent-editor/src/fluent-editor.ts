@@ -5,6 +5,7 @@ import FluentEditor from './core/fluent-editor'
 import SoftBreak from './formats/soft-break' // 软回车
 import Strike from './formats/strike' // 删除线
 import Video from './formats/video' // 视频
+import Ai from './modules/ai' // AI
 import Counter from './modules/counter' // 字符统计
 import CustomClipboard from './modules/custom-clipboard' // 粘贴板
 import Image from './modules/custom-image/BlotFormatter' // 图片
@@ -47,6 +48,7 @@ FluentEditor.register(
     'formats/text-indent': TextIndentStyle,
     'formats/video': Video,
 
+    'modules/ai': Ai,
     'modules/clipboard': CustomClipboard,
     'modules/counter': Counter,
     'modules/divider': DividerBlot,
